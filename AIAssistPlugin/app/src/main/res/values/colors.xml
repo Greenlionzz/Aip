@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- ==================== Colors ==================== -->
+
+    <!-- Accent / brand color: vivid blue -->
+    <color name="ai_accent">#2196F3</color>
+    <color name="ai_accent_dark">#1565C0</color>
+    <color name="ai_on_accent">#FFFFFF</color>
+
+    <!-- Bottom sheet background -->
+    <color name="ai_bg_sheet">#FFFFFF</color>
+
+    <!-- Text -->
+    <color name="ai_text_primary">#212121</color>
+    <color name="ai_text_secondary">#757575</color>
+
+    <!-- Chat bubbles -->
+    <color name="ai_bubble_user_bg">#E3F2FD</color>
+    <color name="ai_bubble_user_text">#0D47A1</color>
+    <color name="ai_bubble_assistant_bg">#F5F5F5</color>
+
+    <!-- UI chrome -->
+    <color name="ai_divider">#E0E0E0</color>
+    <color name="ai_drag_handle">#BDBDBD</color>
+    <color name="ai_input_bg">#F5F5F5</color>
+    <color name="ai_input_stroke">#BDBDBD</color>
+
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Base application theme — plugins must use PluginTheme as parent -->
+    <style name="Theme.AIAssist" parent="PluginTheme">
+        <item name="colorPrimary">@color/ai_accent</item>
+        <item name="colorPrimaryDark">@color/ai_accent_dark</item>
+        <item name="colorAccent">@color/ai_accent</item>
+    </style>
+
+    <!-- Bottom sheet style -->
+    <style name="AIAssist.BottomSheet" parent="Widget.MaterialComponents.BottomSheet">
+        <item name="android:background">@color/ai_bg_sheet</item>
+    </style>
+
+    <!-- Chip style override for quick-action chips -->
+    <style name="AIAssist.Chip" parent="Widget.MaterialComponents.Chip.Action">
+        <item name="chipBackgroundColor">@color/ai_bubble_user_bg</item>
+        <item name="android:textColor">@color/ai_accent</item>
+    </style>
+
+</resources>

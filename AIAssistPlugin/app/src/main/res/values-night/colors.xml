@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- ==================== Dark mode Colors ==================== -->
+
+    <!-- Accent / brand color -->
+    <color name="ai_accent">#64B5F6</color>
+    <color name="ai_accent_dark">#1E88E5</color>
+    <color name="ai_on_accent">#FFFFFF</color>
+
+    <!-- Bottom sheet background -->
+    <color name="ai_bg_sheet">#1E1E1E</color>
+
+    <!-- Text -->
+    <color name="ai_text_primary">#EEEEEE</color>
+    <color name="ai_text_secondary">#9E9E9E</color>
+
+    <!-- Chat bubbles -->
+    <color name="ai_bubble_user_bg">#1565C0</color>
+    <color name="ai_bubble_user_text">#E3F2FD</color>
+    <color name="ai_bubble_assistant_bg">#2C2C2C</color>
+
+    <!-- UI chrome -->
+    <color name="ai_divider">#333333</color>
+    <color name="ai_drag_handle">#555555</color>
+    <color name="ai_input_bg">#2C2C2C</color>
+    <color name="ai_input_stroke">#555555</color>
+
+</resources>

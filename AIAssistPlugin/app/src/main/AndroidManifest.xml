@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Network access for AI API calls -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:label="@string/plugin_label"
+        android:theme="@style/PluginTheme">
+
+        <!-- ── Required plugin metadata ── -->
+        <meta-data android:name="plugin.id"              android:value="com.plugin.aiassist" />
+        <meta-data android:name="plugin.name"            android:value="AI Assist" />
+        <meta-data android:name="plugin.version"         android:value="${pluginVersion}" />
+        <meta-data android:name="plugin.description"     android:value="Integrates any OpenAI-compatible AI API into Code on the Go. Supports custom base URL, API key, and model selection." />
+        <meta-data android:name="plugin.author"          android:value="Plugin Dev" />
+        <meta-data android:name="plugin.min_ide_version" android:value="1.0.0" />
+        <meta-data android:name="plugin.main_class"      android:value="com.plugin.aiassist.AIAssistPlugin" />
+
+        <!-- ── Permissions ── -->
+        <!-- network.access  : make API calls to the AI provider                -->
+        <!-- filesystem.read : read current file / selection from editor        -->
+        <!-- ide.settings    : persist API key, base URL, model in SharedPrefs  -->
+        <meta-data android:name="plugin.permissions"
+            android:value="network.access,filesystem.read,ide.settings" />
+
+        <!-- One sidebar item: AI Assistant panel -->
+        <meta-data android:name="plugin.sidebar_items"   android:value="1" />
+
+        <!-- Icons (light / dark) -->
+        <meta-data android:name="plugin.icon_day"   android:value="assets/icon_day.png" />
+        <meta-data android:name="plugin.icon_night" android:value="assets/icon_night.png" />
+
+    </application>
+</manifest>
